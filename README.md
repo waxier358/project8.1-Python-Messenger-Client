@@ -2,9 +2,9 @@
 I created a Python Messenger using sockets.
 This application works in hub and soke mode.
 Server can be started with this GUI.
-Owner of server can enter his local IP address (current version put automaticaly IP address from ethernet interface) and port number for server and start or stop server.
+Owner of server can enter his local IP address (current version will get IP address from ethernet interface automatically) and port number for server and can also start or stop server.
 All connected clients appear in first scrollable frame with name and avatar.
-All information about client status and all messages sent by every client appear in second scrollable frame.
+All information about client status and all messages sent by every client will appear in second scrollable frame.
 
 ![image](https://github.com/waxier358/project8.1-Python-Messenger-Client/assets/105735620/42aa0142-8a34-423b-a031-685bcfbd74e2)
 
@@ -41,9 +41,7 @@ string after conversion:
 If server is behind a NAT router, PORT FORWORDING must be implemented on router. On client and server site new rules must be implemented in FIREWALL.
 Here is a link with more details: (https://stackoverflow.com/questions/29929107/python-3-using-sockets-over-the-internet)
 
-!!! RECOMANDATION !!!
+!!! RECOMMENDATION !!!
 
-For best GUI experience use a client name as short as posible.
-All clients names must have approximately the same length.
-
-
+For best GUI experience use a client name as short as possible.
+All clients' names must have approximately the same length.
